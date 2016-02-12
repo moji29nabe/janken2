@@ -1,0 +1,16 @@
+{
+  "name": "janken2",
+  "version": "0.0.1",
+  "description": "my socket.io app",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.1",
+    "express": "^4.12.3",
+    "express-session": "^1.13.0",
+    "passport": "^0.3.2",
+    "passport-twitter": "^1.0.4",
+    "socket.io": "^1.2.1"
+  }
+}
