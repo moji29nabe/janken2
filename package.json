@@ -1,6 +1,9 @@
 {
   "name": "janken2",
   "version": "0.0.1",
+  "engines": {
+    "node": "v0.12.7"
+  },
   "description": "my socket.io app",
   "scripts": {
     "start": "node app.js"
