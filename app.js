@@ -85,7 +85,10 @@ io.use(function(client, next) {
       return next(error);
     }
 console.log(session)
-    if (session && session.passport.user == null) {
+    if (session &&
+        session.passport &&
+        session.passport.user &&
+        session.passport.user == null) {
       return next('Guest');
     }
     client.session = session;
